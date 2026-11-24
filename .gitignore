@@ -1,0 +1,91 @@
+# ====== Environment ======
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# ====== Documentation ======
+*.md
+# !README.md
+
+# ====== Node ======
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ====== IDE ======
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# ====== Build ======
+dist/
+build/
+.next/
+out/
+.turbo/
+.nx/
+
+# ====== Tests ======
+coverage/
+.jest-cache/
+.nyc_output/
+
+# ====== Runtime ======
+tmp/
+temp/
+logs/
+*.log
+
+# ====== OS ======
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ====== Database ======
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# ====== Temporary ======
+.parcel-cache
+dist-ssr
+
+# ====== Docker ======
+docker-compose.override.yml
+
+# ====== Secrets ======
+.env.*.private
+secrets/
+*.pem
+*.key
+
+# ====== Mobile ======
+apps/mobile/android/app/debug/
+apps/mobile/android/app/release/
+apps/mobile/.gradle/
+
+# ====== AI/ML ======
+models/
+*.bin
+*.pkl
+*.pt
+
+# ====== Others ======
+.cache/
+.local/
+.python-version
